@@ -36,5 +36,5 @@ legend('topright',legend=lbls,col=lncol,lty='solid')
 # Create bottom right plot
 plot(dataXplot$Time,dataXplot$Global_reactive_power,xlab='datetime',ylab='Global_reactive_power',type='l')
 
-# Close off graphic device
+# Close graphic device
 x<-dev.off()
